@@ -5,9 +5,6 @@ async function home (fastify, options) {
       //return { hello: '/need2redirect to /home' }
       reply.view('/view/home/index', {text:'text'});
     })
-    // fastify.get('/home', async(req, reply)=>{
-    //   reply.view('/view/home/index', {text:'text'});
-    // })
 }
 
 
