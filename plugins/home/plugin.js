@@ -8,7 +8,21 @@ async function home (fastify, options) {
 }
 
 
+
 module.exports=home
+
+// async function handleTest(req, reply){
+//   return{hello:'world'}
+// }
+
+
+// module.exports=[
+//   {
+//     method:'GET',
+//     path:'/test',
+//     handler:handleTest
+//   }
+// ]
 
   
 
