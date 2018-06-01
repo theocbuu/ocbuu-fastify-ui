@@ -1,6 +1,6 @@
 'use strict'
 
-async function handleShome(req, reply){
+async function handleHome(req, reply){
   //return { hello: 'test again world' }
   reply.view('/view/home/index', {text:'text'});
 }
@@ -9,7 +9,7 @@ async function handleShome(req, reply){
 module.exports=[
   {
     method:'GET',
-    url:'/shome',
-    handler: handleShome
+    url:'/',
+    handler: handleHome
   }
 ]
