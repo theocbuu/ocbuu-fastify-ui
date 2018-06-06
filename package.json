@@ -12,8 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@lasso/marko-taglib": "^1.0.10",
+    "browser-refresh": "^1.7.2",
+    "browser-refresh-taglib": "^1.1.0",
     "fastify": "^1.5.0",
     "fastify-static": "^0.12.0",
+    "lasso": "^3.1.5",
+    "lasso-marko": "^2.4.2",
     "marko": "^4.10.0",
     "node-dir": "^0.1.17",
     "path": "^0.12.7",

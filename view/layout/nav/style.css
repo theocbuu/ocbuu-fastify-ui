@@ -1,0 +1,45 @@
+.navbar-custom {
+	background: #2C3E50;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+}
+.navbar-custom .navbar-brand {
+	color: white;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active{
+  color: gray;
+}
+
+
+
+
+.navbar-custom .nav-pills {
+	letter-spacing: 1px;
+}
+/* .navbar-custom .nav-pills li a {
+	color: white;
+}
+.navbar-custom .nav-pills li a:hover {
+	color: #708090;
+}
+.navbar-custom .nav-pills li a:focus,
+.navbar-custom .nav-pills li a:active {
+	color: red;
+} */
+/* //I can get the below to work */
+/* .navbar-custom .nav-pills>li.active>a{	
+	background-color: red;
+} */
+.nav-pills>li.active>a{
+	background-color:red;
+	color:white;
+}
+
+
+
+
+/* how to keep active link highlight */
