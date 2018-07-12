@@ -5,21 +5,16 @@
 	font-weight: 700;
 	border: none;
 }
-.navbar-custom .navbar-brand {
-	color: white;
-}
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus,
-.navbar-custom .navbar-brand:active{
-  color: gray;
-}
 
 
 
 
-.navbar-custom .nav-pills {
-	letter-spacing: 1px;
-}
+
+
+
+
+
+
 /* .navbar-custom .nav-pills li a {
 	color: white;
 }
