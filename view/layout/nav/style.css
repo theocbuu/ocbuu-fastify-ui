@@ -1,9 +1,33 @@
+
+
 .navbar-custom {
-	background: #2C3E50;
+	background: #563d7c;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-weight: 700;
 	border: none;
+}
+
+#nav-brand-icon{
+	background: white;
+	border-radius: 30px;
+	padding: 7px; 
+}
+
+.nav-link{
+	color:#cbbde2;
+}
+.nav-link:hover,
+.nav-link:focus{
+	color:white;
+}
+.highlite{
+	color:white;
+}
+.toggle-button-custom{
+	border-color:white;
+	color:#cbbde2;
+	text-align:right;
 }
 
 
@@ -29,10 +53,6 @@
 /* .navbar-custom .nav-pills>li.active>a{	
 	background-color: red;
 } */
-.nav-pills>li.active>a{
-	background-color:red;
-	color:white;
-}
 
 
 
